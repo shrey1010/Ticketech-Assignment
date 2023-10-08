@@ -14,9 +14,6 @@ This project implements a RESTful API using Django Rest Framework. It provides e
 - [Usage](#usage)
   - [Authentication](#authentication)
   - [Endpoints](#endpoints)
-- [API Documentation](#api-documentation)
-  - [Browsable API](#browsable-api)
-  - [Swagger Documentation (Optional)](#swagger-documentation-optional)
 - [Contributing](#contributing)
 
 
@@ -80,28 +77,6 @@ To access protected endpoints, users must be authenticated. This can be done by 
 - `POST /todos/`: Create a new TODO item.
 - `DELETE /todos/<id>/`: Delete a TODO item by its ID.
 - `PUT /todos/<id>/`: Update the status of a TODO item by its ID.
-
-## API Documentation
-
-### Browsable API
-
-The project includes a browsable API that allows you to interact with the API endpoints directly from a web browser.
-
-1. Access the API by navigating to `http://localhost:8000/docs/` in your web browser.
-
-2. Authenticate (if required) using your credentials or token.
-
-3. Explore and test the available endpoints.
-
-### Swagger Documentation (Optional)
-
-This project also provides Swagger documentation for the API, which offers a user-friendly interface for exploring and testing the endpoints.
-
-1. Access the Swagger documentation by visiting `http://localhost:8000/swagger/`.
-
-2. Authenticate (if required) using your credentials or token.
-
-3. Explore and test the available endpoints.
 
 ## Contributing
 
